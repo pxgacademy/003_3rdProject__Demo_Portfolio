@@ -34,11 +34,13 @@ body{
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .btn:hover{
   background-color: var(--lightColor);
   color: var(--btnColor);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h2{
@@ -300,3 +302,66 @@ h2{
   text-align: center;
 }
 /* resume section styles ended */
+
+/* footer section styles started */
+footer{
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 110px 0px;
+  box-sizing: border-box;
+  background: rgb(255, 248, 243);
+}
+
+footer .footer_section{
+  width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+footer .footer_section .footer_parts{
+  width: 50%;
+}
+footer .footer_section .footer_parts h2{
+  margin-bottom: 20px;
+}
+footer .footer_section .footer_parts p{
+  color: var(--darkTwo);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+}
+
+footer .footer_section .footer_icons img{
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+footer .footer_form form input[type="text"],
+footer .footer_form form input[type="email"]{
+  background-color: var(--lightColor);
+  color: var(--darkThree);
+  width: 450px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  padding: 0px 20px;
+  display: block;
+}
+
+footer .footer_form form textarea{
+  background-color: var(--lightColor);
+  color: var(--darkThree);
+  width: 450px;
+  height: 180px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: block;
+}
+/* footer section styles ended */
