@@ -36,6 +36,11 @@ body{
   cursor: pointer;
 }
 
+.btn:hover{
+  background-color: var(--lightColor);
+  color: var(--btnColor);
+}
+
 h2{
   font-size: 35px;
   font-weight: 700;
@@ -43,3 +48,101 @@ h2{
   color: var(--darkOne);
 }
 /* global styles ended */
+
+/* header section styles started */
+#header_section{
+  width: 1300px;
+  height: 780px;
+  margin: 0 auto;
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left center, bottom right;
+  background-color: rgb(255, 248, 243);
+}
+
+#nav_container{
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#logo{
+  margin-left: 130px;
+}
+
+#logo h3{
+  font-size: 45px;
+  font-weight: 800;
+  color: var(--darkOne);
+}
+#logo h3 span{
+  color: var(--btnColor);
+}
+
+/* main menu styles */
+
+#main_menu{
+  margin-right: 130px;
+}
+
+#main_menu ul li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+#main_menu ul li a{
+  color: var(--darkTwo);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;  
+}
+
+/* banner section styles started */
+#banner_section{
+  max-width: 1300px;
+  height: 699px;
+}
+
+#banner_section .banner_content{
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#banner_section .banner_content span{
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--darkTwo);
+}
+#banner_section .banner_content h1{
+  color: var(--darkOne);
+  font-size: 85px;
+  font-weight: 700;
+}
+#banner_section .banner_content p{
+  color: var(--darkThree);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+#banner_section .banner_content .contact_btn{
+  background-color: var(--lightColor);
+  border: 1px solid var(--btnColor);
+  color: var(--btnColor);
+  margin-left: 5px;
+}
+
+#banner_section .banner_part{
+  width: 50%;
+}
+
+#banner_img{
+  height: 100%;
+}
+#banner_img img{
+  height: 100%;
+  position: bottom;
+}
+/* header section styles ended */
