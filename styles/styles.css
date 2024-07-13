@@ -188,3 +188,59 @@ h2{
   color: var(--darkTwo);
 }
 /* about section styles ended */
+
+/* portfolio section styles started */
+#portfolio_section{
+  margin-bottom: 200px;
+}
+
+#portfolio_container{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#portfolio_container .portfolio_content{
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#portfolio_container .portfolio_content p{
+  color: var(--darkThree);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-top: 30px;
+}
+
+#portfolio_container .portfolio_items{
+  gap: 20px;
+}
+#portfolio_container .portfolio_items .portfolio_card{
+  width: 270px;
+  height: 370px;
+  padding: 30px 32px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+  background: var(--lightColor);
+}
+#portfolio_container .portfolio_items .portfolio_card img{
+  width: 44px;
+  height: 44px;
+}
+
+#portfolio_container .portfolio_items .portfolio_card h4{
+  color: var(--darkOne);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+#portfolio_container .portfolio_items .portfolio_card p{
+  color: var(--darkThree);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* portfolio section styles ended */
