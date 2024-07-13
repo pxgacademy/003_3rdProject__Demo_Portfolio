@@ -244,3 +244,59 @@ h2{
   line-height: 30px;
 }
 /* portfolio section styles ended */
+
+/* resume section styles started */
+#resume_section{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#resume_section > h2{
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+#resume_section .resume_items{
+  padding: 15px;
+}
+
+#resume_section .resume_items h3{
+  color: var(--darkTwo);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+
+#resume_section .resume_items .resume_item h4{
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+  color: var(--darkTwo);
+}
+
+#resume_section .resume_items .resume_item span{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  color: var(--darkThree);
+}
+
+#resume_section .resume_items .resume_item p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: var(--darkThree);
+  margin-top: 20px;
+  margin-bottom: 30px;    
+}
+#resume_section .resume_items .resume_item hr{
+  border: 1px solid rgb(209, 209, 209);
+  margin-bottom: 30px;
+}
+#resume_section .resume_btn{
+  text-align: center;
+}
+/* resume section styles ended */
